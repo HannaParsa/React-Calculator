@@ -40,6 +40,11 @@ function App() {
          <div className='App-header'>
             <h2>calculator</h2>
          </div> 
+         <main className='calculator__container'>
+           <section className='calculator'>
+              <div className="calculator__input"></div>
+           </section> 
+         </main>
       </div>
  );
 }
