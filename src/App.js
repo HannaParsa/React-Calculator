@@ -47,15 +47,21 @@ function App() {
                <div className='calculator__digits'>
                  <div className="grid-container">
                    <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
-                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
-                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
-                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
-                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
-                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
-                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
-                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
-                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('2')}>2</div>
+                   <div className='grid-item' onClick={() => handleDigit('3')}>3</div>
+                   <div className='grid-item' onClick={() => handleDigit('4')}>4</div>
+                   <div className='grid-item' onClick={() => handleDigit('5')}>5</div>
+                   <div className='grid-item' onClick={() => handleDigit('6')}>6</div>
+                   <div className='grid-item' onClick={() => handleDigit('7')}>7</div>
+                   <div className='grid-item' onClick={() => handleDigit('8')}>8</div>
+                   <div className='grid-item' onClick={() => handleDigit('9')}>9</div>
+                   <div className='grid-item' onClick={remove}>CE</div>
+                   <div className='grid-item' onClick={() => handleDigit(0)}>0</div>
+                   <div className='grid-item' onClick={() => {setNumber('0')}}>C</div>
                  </div>
+               </div>
+               <div>
+                  
                </div>
            </section> 
          </main>
