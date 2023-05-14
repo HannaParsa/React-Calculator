@@ -26,8 +26,21 @@ function App() {
          setNumber(number.slice(0, len-1))
       }
    }
- return(
 
+   const clac = () =>{
+      const res = eval(number)
+      const output = document.querySelect(".calculator__output");
+      
+      output.textContent = res;
+
+      setNumber(res)
+   }
+ return(
+      <div className='App'>
+         <div className='App-header'>
+            <h2>calculator</h2>
+         </div> 
+      </div>
  );
 }
 
