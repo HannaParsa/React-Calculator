@@ -43,6 +43,10 @@ function App() {
          <main className='calculator__container'>
            <section className='calculator'>
               <div className="calculator__input"></div>
+              <div className="calculator__output"></div>
+              <div className='calculator__digits'>
+
+              </div>
            </section> 
          </main>
       </div>
