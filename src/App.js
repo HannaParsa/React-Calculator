@@ -15,6 +15,10 @@ function App() {
       const input = document.querySelector(".calculator__input")
       input.textContent = number;
    }, [number])
+
+   const remove = () =>{
+      if(number == '0') return;
+   }
  return(
 
  );
