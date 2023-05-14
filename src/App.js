@@ -13,7 +13,8 @@ function App() {
    
    useEffect(() =>{
       const input = document.querySelector(".calculator__input")
-   })
+      input.textContent = number;
+   }, [number])
  return(
 
  );
