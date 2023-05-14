@@ -44,9 +44,19 @@ function App() {
            <section className='calculator'>
               <div className="calculator__input"></div>
               <div className="calculator__output"></div>
-              <div className='calculator__digits'>
-
-              </div>
+               <div className='calculator__digits'>
+                 <div className="grid-container">
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                   <div className='grid-item' onClick={() => handleDigit('1')}>1</div>
+                 </div>
+               </div>
            </section> 
          </main>
       </div>
