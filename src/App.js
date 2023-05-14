@@ -18,6 +18,13 @@ function App() {
 
    const remove = () =>{
       if(number == '0') return;
+      const len = number.length;
+      if(len <= 1 ){
+         setNumber('0');
+      }
+      else{
+         setNumber(number.slice(0, len-1))
+      }
    }
  return(
 
