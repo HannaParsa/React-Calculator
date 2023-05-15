@@ -27,7 +27,7 @@ function App() {
       }
    }
 
-   const clac = () =>{
+   const calc = () =>{
       const res = eval(number)
       const output = document.querySelect(".calculator__output");
       
@@ -60,8 +60,15 @@ function App() {
                    <div className='grid-item' onClick={() => {setNumber('0')}}>C</div>
                  </div>
                </div>
-               <div>
-                  
+               <div className="calculator__operators">
+               <div className="op__plus" onClick={() => handleDigit('+')}>+</div>
+                  <div className="op__minus" onClick={() => handleDigit('-')}>-</div>
+                  <div className="op__multiply" onClick={() => handleDigit('*')}>*</div>
+                  <div className="op__divide" onClick={() => handleDigit('/')}>/</div>
+                  <div className="op__square" onClick={() => handleDigit('**')}>^2</div>
+                  <div className="op__power" onClick={() => handleDigit('.')}>.</div>
+                  <div className="op__modulus" onClick={() => handleDigit('%')}>%</div>
+                  <div className="op__calc" onClick={calc}>=</div>
                </div>
            </section> 
          </main>
