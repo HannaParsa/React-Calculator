@@ -32,3 +32,30 @@
   grid-row-start: 2;
   grid-row-end: 3; 
 }
+
+.calculator__digits {
+  grid-column-start: 1;
+  grid-column-end: 2; 
+  grid-row-start: 3;
+  grid-row-end: 5; 
+}
+.calculator__operators {
+  grid-column-start: 2;
+  grid-column-end: 3; 
+  grid-row-start: 3;
+  grid-row-end: 5; 
+}
+
+.calculator {
+  display: grid;
+  width: 512px;
+  grid-gap: 5px;
+  background-color: #616161;
+  padding: 5px;
+}
+
+.calculator > div {
+  background-color: #222;
+  text-align: center;
+  font-size: 24px;
+}
