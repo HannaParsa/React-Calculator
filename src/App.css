@@ -59,3 +59,30 @@
   text-align: center;
   font-size: 24px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid #222;
+}
+.grid-item,  .calculator__operators > div {
+  background-color: #bbb;
+  border: 1px solid #222;
+  padding: 15px;
+  text-align: center;
+}
+
+.calculator__operators {
+  border: 1px solid #222;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.calculator__operators > div {
+  background-color: turquoise;
+}
+
+.calculator__input, .calculator__output {
+  color: #fff;
+  padding: 10px 0;
+  min-height: 32px;
+}
